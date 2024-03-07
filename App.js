@@ -219,7 +219,7 @@ export default function App() {
           </View>
         </ScrollView>
 
-        <Text style={{ color: "white", fontSize: 23, fontWeight: "bold", marginHorizontal: 10, marginTop: 15 }}>Tocados recentimente</Text>
+        <Text style={{ color: "white", fontSize: 23, fontWeight: "bold", marginHorizontal: 10, marginTop: 15 }}>Tocados recentemente</Text>
         <ScrollView horizontal={true} showsHorizontalScrollIndicator={false} style={{ padding: 10 }}>
           <View>
             <Image style={{ width: 100, height: 100, backgroundColor: 'red', borderRadius: 5, marginEnd: 15, borderRadius: 60 }} source={require('../my-app/assets/the-weeknd.jpeg')} />
